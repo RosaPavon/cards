@@ -40,7 +40,6 @@ function App() {
     setLoading(false)
   },[sets])
   
-
   let setGuardado=data.map((cards) => {return(
   <option key={cards.id} value={cards.code}>{cards.name}</option>)})
 
